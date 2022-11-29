@@ -8,7 +8,6 @@ function App() {
       .then(res=>res.json())
       .then((result)=>{
         setItems(result)
-        console.log('TestMaster')
       })
   },[])
   return (
